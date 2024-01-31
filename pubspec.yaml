@@ -20,6 +20,7 @@ dependencies:
   # Cupertino style icons
   cupertino_icons: ^1.0.2
   flutter_svg: ^0.22.0
+  change_app_package_name: ^1.1.0
 
   # For API Call
   http: ^1.0.0
