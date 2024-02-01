@@ -24,6 +24,8 @@ class connectedCountry extends StatelessWidget {
             //title
             Text(
               title,
+              overflow: TextOverflow.ellipsis,
+              maxLines: 1,
               style: TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.w500,

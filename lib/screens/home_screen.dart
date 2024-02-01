@@ -253,11 +253,14 @@ class HomeScreen extends StatelessWidget {
                         //text
                         Text(
                           _controller.getButtonText,
+                          overflow: TextOverflow.ellipsis,
+                          maxLines: 1,
                           style: TextStyle(
                               fontFamily: 'SpaceGrotesk',
-                              fontSize: 12.5,
+                              fontSize: 10,
                               color: Colors.white,
                               fontWeight: FontWeight.w500),
+
                         )
                       ],
                     ),
